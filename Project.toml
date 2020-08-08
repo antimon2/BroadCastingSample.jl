@@ -1,0 +1,16 @@
+name = "BroadCastingSample"
+uuid = "0deb7d3d-5e77-4aec-9c10-a141ae9ac0ac"
+authors = ["GOTOH Shunsuke <antimon2.me@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+
+[compat]
+julia = "1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
